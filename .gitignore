@@ -1,0 +1,7 @@
+.env
+.idea
+.svn
+npm-debug.log
+guide.txt
+node_modules
+apikey.properties
