@@ -1,0 +1,4 @@
+homepage : /
+registration : /register
+logout : /logout
+dashbard : /dashboard

@@ -1,6 +1,5 @@
 var express = require('express');
 var path = require('path');
-var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
@@ -11,7 +10,11 @@ var StormpathStrategy = require('passport-stormpath');
 var session = require('express-session');
 var flash = require('connect-flash');
 
-var routes = require('./routes/index');
+var homePageRoute = require('./routes/index');
+var loginRoute = require('./routes/login');
+var registerRoute = require('./routes/register');
+var dashboardRoute = require('./routes/dashboard');
+var logoutRoute = require('./routes/logout');
 
 var app = express();
 
@@ -26,7 +29,6 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
 // uncomment after placing your favicon in /public
-//app.use(favicon(__dirname + '/public/favicon.ico'));
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false }));
@@ -41,7 +43,11 @@ app.use(passport.session());
 app.use(flash());
 
 // Specify the routes here.
-app.use('/', routes);
+app.use('/', homePageRoute);
+app.use('/login', loginRoute);
+app.use('/register', registerRoute);
+app.use('/dashboard', dashboardRoute);
+app.use('/logout', logoutRoute);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
