@@ -1,6 +1,12 @@
-## training node express passport passport-stormpath stormpath
+## training 
 
-This exemple allows how to make a simple node js application
+This exemple allows how to make a simple node js application by using the following librairies : 
+
+*node
+*express
+*passport
+*passport-stormpath
+*stormpath
 
 ## Installation and Usage
 
