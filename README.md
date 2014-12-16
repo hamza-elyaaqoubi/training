@@ -1,8 +1,8 @@
 ## training 
 
-This exemple allows how to make a simple node js application by using the following librairies : 
+This exemple allows how to make a simple node js application by using the following libraries : 
 
-- node
+- [node](http://www.google.com)
 - express
 - passport
 - passport-stormpath
