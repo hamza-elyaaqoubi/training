@@ -1,6 +1,6 @@
 ## training 
 
-This exemple allows how to make a simple node js application by using the following libraries & API : 
+This exemple allows you how to make a simple node js application by using the following libraries & API : 
 
 - [node](http://nodejs.org/)
 - [express](http://expressjs.com/)
