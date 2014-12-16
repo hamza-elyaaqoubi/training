@@ -10,7 +10,7 @@ This exemple allows you how to make a simple node js application by using the fo
 
 ## Installation and Usage
 
-$ git clone https://github.com/hamzaCM/training.git
-$ cd training
-$ npm install
-$ node ./bin/www
+- $ git clone https://github.com/hamzaCM/training.git
+- $ cd training
+- $ npm install
+- $ node ./bin/www
