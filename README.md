@@ -2,11 +2,11 @@
 
 This exemple allows how to make a simple node js application by using the following librairies : 
 
-*node
-*express
-*passport
-*passport-stormpath
-*stormpath
+- node
+- express
+- passport
+- passport-stormpath
+- stormpath
 
 ## Installation and Usage
 
