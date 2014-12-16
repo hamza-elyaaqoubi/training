@@ -13,4 +13,4 @@ This exemple allows you how to make a simple node js application by using the fo
 - $ git clone https://github.com/hamzaCM/training.git
 - $ cd training
 - $ npm install
-- $ node ./bin/www (or npm start if you  have configured correctly your package.json)
+- $ node ./bin/www (or *npm start* if you have configured correctly your package.json)
