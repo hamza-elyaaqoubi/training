@@ -1,12 +1,12 @@
 ## training 
 
-This exemple allows how to make a simple node js application by using the following libraries : 
+This exemple allows how to make a simple node js application by using the following libraries & API : 
 
-- [node](http://www.google.com)
-- express
-- passport
-- passport-stormpath
-- stormpath
+- [node](http://nodejs.org/)
+- [express](http://expressjs.com/)
+- [passport](http://expressjs.com/)
+- [passport-stormpath](https://github.com/stormpath/passport-stormpath)
+- [stormpath](https://stormpath.com/)
 
 ## Installation and Usage
 
